@@ -1,0 +1,49 @@
+.navbar{
+    box-shadow: 2px 2px 5px rgb(135, 126, 189);
+    opacity: 0.9;
+}
+.navbar.nav-item.nav-link{
+    color: bisque;
+}
+/*#fresa{
+    box-shadow: 2px 2px 2px rgb(27, 27, 27);
+    margin-left: 80px;
+    border-radius: 10px;
+}*/
+header{
+    margin-top: 30px;
+}
+.main-header{
+    background: url(imagenes/fondo.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+   
+}
+.background-overlay{
+    background:rgba(223, 249, 251,0.7);
+    background-size: cover;
+    max-height: 600px;
+}
+.team, footer{
+    background: rgba(149, 175, 192,1.0);
+}
+#tarjetas{
+    box-shadow: 2px 2px 2px rgba(223, 249, 251,1.0);
+    transition: transform 0.3s ease-in-out 0.1s;
+}
+
+#tarjetas:hover{
+    transform: scale(1.1);  
+}
+#cajas{
+    transition: transform 0.3s ease-in-out 0.1s;
+}
+
+#cajas:hover{
+    transform: scale(1.1);  
+}
+
+
+/*.form-control, .btn{
+    border-radius: 0;
+}*/
